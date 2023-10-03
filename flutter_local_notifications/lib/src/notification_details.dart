@@ -1,4 +1,4 @@
-import 'package:flutter_local_notifications_linux/flutter_local_notifications_linux.dart';
+
 
 import 'platform_specifics/android/notification_details.dart';
 import 'platform_specifics/darwin/notification_details.dart';
@@ -23,5 +23,5 @@ class NotificationDetails {
   final DarwinNotificationDetails? macOS;
 
   /// Notification details for Linux.
-  final LinuxNotificationDetails? linux;
+  final dynamic linux;
 }
